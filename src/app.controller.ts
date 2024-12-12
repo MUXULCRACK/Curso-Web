@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  /* METODO PARA VER JSON JUNTO CON CONTROLADOR
+  @Get()
+  getHello(){
+    return this.appService.getHello();
+  }*/
 }
